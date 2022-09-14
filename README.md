@@ -8,7 +8,7 @@ Features to be implemented:
 
 -Validation: table entry for unit displays 'N/A' when 0 is inputted for weight.
 
--Adding a fresh layer of CSS to spruce up the page!
+-Adding additional CSS elements to spruce up the pages!
 
 <img width="1106" alt="image" src="https://user-images.githubusercontent.com/102781030/190059829-b68aad6b-de8d-4003-aa89-0652445c3820.png">
 
