@@ -1,11 +1,13 @@
 # WorkoutTrack
 
-This fullstack MERN app tracks a user's workouts on a given day, and additional validation is performed to ensure that the user’s input is correct for all criteria.
+This WIP fullstack MERN app tracks a user's workouts on a given day, and additional validation is performed to ensure that the user’s input is correct for all criteria.
 
 
 ## Preview
 Features to be Implemented:
+
 -Validation: table entry for unit displays 'N/A' when 0 is inputted for weight.
+
 -Adding a fresh layer of CSS to spruce up the page!
 
 <img width="1106" alt="image" src="https://user-images.githubusercontent.com/102781030/190059829-b68aad6b-de8d-4003-aa89-0652445c3820.png">
