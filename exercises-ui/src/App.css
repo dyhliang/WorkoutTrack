@@ -1,0 +1,65 @@
+body {
+  font-family: "Optima";
+  background-color: #282c34;
+  color: #ffb300;
+  font-size: calc(22px);
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+}
+
+h1 {
+  color: rgb(0, 94, 166);
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+tr th {
+  border-style: outset;
+  color: #ffb300;
+  padding: 0.5%;
+}
+
+tr td {
+  border-top: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+  border-color: rgb(0, 94, 166);
+  color: #ffb300;
+  padding: 0.5%;
+}
+
+fieldset {
+  font-family: "Georgia";
+  padding: 1%;
+  border-color: rgb(0, 94, 166);
+}
+
+legend {
+  font-family: "Optima";
+  border-top: solid;
+  border-bottom: solid;
+  border-color: rgb(0, 94, 166);
+  border-style: outset;
+}
+
+input {
+  font-family: "Optima";
+  border-top: solid;
+  border-bottom: solid;
+  border-color: rgb(0, 94, 166);
+  border-style: outset;
+}
+
+button {
+  font-family: "Optima";
+}
+
+a:visited {
+  color: blueviolet;
+}
