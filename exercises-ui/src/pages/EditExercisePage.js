@@ -50,6 +50,7 @@ export const EditExercisePage = ({ exerciseToEdit }) => {
             <input
                 type="text"
                 value={date}
+                placeholder="Date: MM/DD/YY"
                 onChange={e => setDate(e.target.value)} />
             <button
                 onClick={editExercise}

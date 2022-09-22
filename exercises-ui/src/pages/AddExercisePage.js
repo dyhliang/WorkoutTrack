@@ -31,17 +31,17 @@ export const AddExercisePage = () => {
         <div>
             <input
                 type="text"
-                placeholder="Enter name here"
+                placeholder="Exercise Name"
                 value={name}
                 onChange={e => setName(e.target.value)} />
             <input
                 type="number"
-                placeholder="Enter reps here"
+                placeholder="Reps"
                 value={reps}
                 onChange={e => setReps(e.target.value)} />
             <input
                 type="number"
-                placeholder="Enter weight here"
+                placeholder="Weight: 0 if N/A"
                 value={weight}
                 onChange={e => setWeight(e.target.value)} />
             <select name="weight" id="weight-select" onChange={e => setUnit(e.target.value)}>

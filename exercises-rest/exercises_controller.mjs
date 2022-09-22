@@ -21,7 +21,7 @@ app.use(express.json());
 app.post('/exercises',
     body('name').not().isEmpty().isLength({ min: 1 }),
     body('reps').not().isEmpty().isInt({ min: 1 }),
-    body('weight').not().isEmpty().isInt({ min: 1 }),
+    body('weight').not().isEmpty().isInt({ min: 0 }),
     body('unit').not().isEmpty(),
     body('date').custom((date, { req }) => {
         if (isDateValid(req.body.date)) {
